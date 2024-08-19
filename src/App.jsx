@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Navigation from "./components/Navigation";
 import ProjectsPage from "./pages/ProjectsPage";
-import AddPodCast from "./pages/AddPodcast";
+import AddPodCast from "./pages/AddPodCast";
 import AllProjects from "./components/AllProjects";
 import ProjectNavigation from "./components/ProjectNavigation";
 import AuthPage from "./pages/AuthPage";
