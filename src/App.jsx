@@ -3,17 +3,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Navigation from "./components/Navigation";
 import ProjectsPage from "./pages/ProjectsPage";
+import AddPodCast from "./pages/AddPodcast";
 import AllProjects from "./components/AllProjects";
 import ProjectNavigation from "./components/ProjectNavigation";
 import AuthPage from "./pages/AuthPage";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import EditEpisode from "./components/EditEpisode";
-import AccountSettings from "./components/AccountSetting"; // Corrected import
+import AccountSettings from "./components/AccountSetting"; 
 import ComingSoon from "./components/ComingSoon";
 import MyContextProvider from "./hooks/MyContextProvider";
-import Error from "./pages/Error"; // Added Error component import
-import AddPodCast from "./pages/AddPodcast";
+import Error from "./pages/Error"; 
+
 
 function App() {
   const route = createBrowserRouter([
