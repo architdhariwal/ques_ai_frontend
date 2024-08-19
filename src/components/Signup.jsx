@@ -16,6 +16,7 @@ function Signup() {
     let payload = {
       username: form.get("username"),
       email: form.get("email"),
+      password: form.get("email"),
     };
     await signupRequest(payload);
   }
@@ -31,7 +32,6 @@ function Signup() {
         username: res.data.username,
         Authorize: true,
         email: res.data.email,
-        password:res.data.password,
       }));
       setToken(res.data.token);
     } catch (error) {
