@@ -1,0 +1,102 @@
+.auth-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .background-section {
+    width: 70%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: #7E22CE;
+  }
+  
+  .content-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2rem;
+  }
+  
+  .logo {
+    margin-bottom: 1rem;
+  }
+  
+  .main-heading {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  .sub-heading {
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    width: 40%;
+  }
+  
+  .outlet-section {
+    width: 30%;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  /* Responsive design */
+@media (max-width: 1024px) {
+    .auth-container {
+      flex-direction: column;
+    }
+  
+    .background-section {
+      width: 100%;
+      height: 50vh;
+    }
+  
+    .content-overlay {
+      padding: 1.5rem;
+    }
+  
+    .main-heading {
+      font-size: 3rem;
+      width: 70%;
+    }
+  
+    .sub-heading {
+      font-size: 1.25rem;
+      width: 60%;
+    }
+  
+    .outlet-section {
+      width: 100%;
+      margin: 1rem 0;
+      padding: 0 1.5rem;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .background-section {
+      height: 40vh;
+    }
+  
+    .content-overlay {
+      padding: 1rem;
+    }
+  
+    .logo {
+      max-width: 100px;
+    }
+  
+    .main-heading {
+      font-size: 2rem;
+      width: 90%;
+    }
+  
+    .sub-heading {
+      font-size: 1rem;
+      width: 80%;
+    }
+  }
